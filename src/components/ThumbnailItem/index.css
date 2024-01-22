@@ -1,0 +1,23 @@
+.thumbnail-list {
+  list-style-type: none;
+  width: 60px;
+  height: 60px;
+}
+.thumbnail-image {
+  width: 60px;
+  height: 60px;
+}
+.thumbnail-button {
+  background-color: transparent;
+  border: 0;
+}
+@media screen and (min-width: 768px) {
+  .thumbnail-list {
+    width: 150px;
+    height: 150px;
+  }
+  .thumbnail-image {
+    width: 150px;
+    height: 150px;
+  }
+}

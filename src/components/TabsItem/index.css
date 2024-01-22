@@ -1,0 +1,27 @@
+.tabs-button-list-container {
+  list-style-type: none;
+}
+.tabs-button {
+  padding: 10px;
+  background-color: transparent;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: 'Roboto';
+  font-size: 20px;
+  border: 0px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  outline: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .tabs-button {
+    font-size: 28px;
+    margin-right: 40px;
+  }
+}
+.active {
+  color: #fec653;
+  border-bottom: 2px solid #fec653;
+  padding-bottom: 8px;
+}
